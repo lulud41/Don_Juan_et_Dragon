@@ -23,7 +23,7 @@ class obstacle:
         
         
             
-        if abs(self.positionX[0]-self.positionX[1])<50 or abs(self.positionX[1]-self.positionX[2])<50 or abs(self.positionX[0]-self.positionX[2])<50 :     
+        if abs(self.positionX[0]-self.positionX[1])<85 or abs(self.positionX[1]-self.positionX[2])<85 or abs(self.positionX[0]-self.positionX[2])<85 :     
             self.positionX.pop(1)
             self.positionX.insert(1,randint(50,600))
                 
